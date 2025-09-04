@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>ModernBrain - Home</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Trebuchet MS", Arial, sans-serif;
+      background: #111 url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+      color: #f2f2f2;
+    }
+
+    header {
+      background: linear-gradient(to bottom, #222, #111);
+      text-align: center;
+      padding: 20px 10px;
+      border-bottom: 4px solid #ff0000;
+    }
+
+    header img {
+      max-width: 500px; /* ajusta el tamaño del logo */
+      height: auto;
+    }
+
+    nav {
+      background: #1c1c1c;
+      padding: 10px;
+      text-align: center;
+      border-bottom: 2px solid #333;
+    }
+
+    nav a {
+      color: #ff3333;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+
+    nav a:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 30px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .songs, .store {
+      background: rgba(20,20,20,0.9);
+      padding: 20px;
+      border: 2px solid #333;
+      margin-bottom: 30px;
+      box-shadow: 0px 0px 20px black inset;
+    }
+
+    h2 {
+      border-bottom: 2px solid #ff3333;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .song {
+      margin: 15px 0;
+    }
+
+    .song a {
+      color: #ff3333;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .song a:hover {
+      color: #fff;
+    }
+
+    .store-content {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .store-content img {
+      max-width: 180px; /* tamaño de la carátula del CD */
+      border: 2px solid #333;
+      box-shadow: 0px 0px 10px black;
+    }
+
+    .store-text {
+      flex: 1;
+    }
+
+    .buy-btn {
+      padding: 10px 20px;
+      background: #ff3333;
+      border: none;
+      color: #fff;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+      border-top: 2px solid #333;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Logo de la banda -->
+    <img src="logo.png" alt="Logo ModernBrain">
+  </header>
+
+  <nav>
+    <a href="Home.html">Inicio</a>
+    <a href="tienda.html">Tienda</a>
+    <a href="Blog.html">Blog</a>
+    <a href="https://www.youtube.com/@ModernBrainBand" target="_blank">YouTube</a>
+  </nav>
+
+  <section id="songs" class="songs">
+    <h2>Últimas Canciones</h2>
+    <div class="song">
+      <p>🎵 Mamá quiero ser presidente</p>
+      <a href="https://www.youtube.com/watch?v=XXXXXXXX" target="_blank">Escuchar en YouTube</a>
+    </div>
+    <div class="song">
+      <p>🎵 Otra Canción del Álbum</p>
+      <a href="https://www.youtube.com/watch?v=YYYYYYYY" target="_blank">Escuchar en YouTube</a>
+    </div>
+  </section>
+
+  <section id="store" class="store">
+    <h2>Tienda</h2>
+    <div class="store-content">
+      <!-- Imagen del CD -->
+      <img src="cd.jpeg" alt="CD ModernBrain">
+
+      <div class="store-text">
+        <p>Compra nuestro nuevo CD “Mamá quiero ser presidente”</p>
+        <p><strong>Precio:</strong> $8.990 CLP</p>
+        <a href="compra.html">
+  <button class="buy-btn">Comprar Ahora</button>
+</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ModernBrain. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
